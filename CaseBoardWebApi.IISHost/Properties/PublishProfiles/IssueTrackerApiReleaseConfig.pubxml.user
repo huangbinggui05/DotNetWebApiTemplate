@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>H:\Super100_8006\WebApiBook</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>08/26/2016 15:07:02</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>08/26/2016 15:07:01</publishTime>
+    </File>
+    <File Include="bin/Autofac.dll">
+      <publishTime>12/16/2013 21:45:10</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.WebApi.dll">
+      <publishTime>01/28/2014 22:17:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/27/2014 15:13:04</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>06/27/2014 02:04:12</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Primitives.dll">
+      <publishTime>04/29/2014 14:51:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>06/27/2014 02:03:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>06/27/2014 02:04:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>06/27/2014 02:04:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>06/27/2014 02:05:54</publishTime>
+    </File>
+    <File Include="bin/Tavis.Home.dll">
+      <publishTime>02/16/2014 22:49:32</publishTime>
+    </File>
+    <File Include="bin/Tavis.Link.dll">
+      <publishTime>11/24/2013 17:19:30</publishTime>
+    </File>
+    <File Include="bin/Tavis.UriTemplates.dll">
+      <publishTime>11/21/2013 09:01:10</publishTime>
+    </File>
+    <File Include="bin/WebApiBook.IssueTrackerApi.dll">
+      <publishTime>08/26/2016 15:06:54</publishTime>
+    </File>
+    <File Include="bin/WebApiBook.IssueTrackerApi.IISHost.dll">
+      <publishTime>08/26/2016 15:06:54</publishTime>
+    </File>
+    <File Include="bin/WebApiContrib.CollectionJson.dll">
+      <publishTime>07/07/2014 05:51:10</publishTime>
+    </File>
+    <File Include="bin/WebApiContrib.Formatting.CollectionJson.Client.dll">
+      <publishTime>07/07/2014 05:51:10</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/18/2015 18:17:58</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/26/2016 15:06:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/26/2016 15:06:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
