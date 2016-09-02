@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseBoardWebApi", "CaseBoardWebApi\CaseBoardWebApi.csproj", "{45F6C4C0-4C11-479C-AE02-5E538FD7CA29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseBoardWebApi.Tests", "CaseBoardWebApi.Tests\CaseBoardWebApi.Tests.csproj", "{3A9E3053-5173-4524-ACBE-BEBC5BC06AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseBoardWebApi.SelfHost", "CaseBoardWebApi.SelfHost\CaseBoardWebApi.SelfHost.csproj", "{63D0B818-5DCD-4379-8D80-33E836249FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseBoardWebApi.IISHost", "CaseBoardWebApi.IISHost\CaseBoardWebApi.IISHost.csproj", "{4D67AAA0-6EAD-46C7-B50A-36CF7FE30A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity.DBBusinessEntity", "Entity.DBBusinessEntity\Entity.DBBusinessEntity.csproj", "{DD5F6A4F-86A2-40FE-8054-25F9B9C4AB55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiBook.IssueTrackerApi", "..\..\..\hbg\dotNetCore\issuetracker-BuildingTheApi\src\WebApiBook.IssueTrackerApi\WebApiBook.IssueTrackerApi.csproj", "{DDBDD2D6-2BFA-4568-8DBF-8AD846111D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHelper", "MyHelper\MyHelper.csproj", "{7BEDA089-FE7B-49F9-B8DA-32A89EF626E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{236D191E-D15C-4E09-BF40-B99D4E39FA75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Fake Github Source|Any CPU = Fake Github Source|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45F6C4C0-4C11-479C-AE02-5E538FD7CA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F6C4C0-4C11-479C-AE02-5E538FD7CA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F6C4C0-4C11-479C-AE02-5E538FD7CA29}.Fake Github Source|Any CPU.ActiveCfg = Fake Github Source|Any CPU
+		{45F6C4C0-4C11-479C-AE02-5E538FD7CA29}.Fake Github Source|Any CPU.Build.0 = Fake Github Source|Any CPU
+		{45F6C4C0-4C11-479C-AE02-5E538FD7CA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F6C4C0-4C11-479C-AE02-5E538FD7CA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9E3053-5173-4524-ACBE-BEBC5BC06AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9E3053-5173-4524-ACBE-BEBC5BC06AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9E3053-5173-4524-ACBE-BEBC5BC06AF2}.Fake Github Source|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9E3053-5173-4524-ACBE-BEBC5BC06AF2}.Fake Github Source|Any CPU.Build.0 = Release|Any CPU
+		{3A9E3053-5173-4524-ACBE-BEBC5BC06AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9E3053-5173-4524-ACBE-BEBC5BC06AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D0B818-5DCD-4379-8D80-33E836249FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D0B818-5DCD-4379-8D80-33E836249FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D0B818-5DCD-4379-8D80-33E836249FDF}.Fake Github Source|Any CPU.ActiveCfg = Release|Any CPU
+		{63D0B818-5DCD-4379-8D80-33E836249FDF}.Fake Github Source|Any CPU.Build.0 = Release|Any CPU
+		{63D0B818-5DCD-4379-8D80-33E836249FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D0B818-5DCD-4379-8D80-33E836249FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D67AAA0-6EAD-46C7-B50A-36CF7FE30A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D67AAA0-6EAD-46C7-B50A-36CF7FE30A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D67AAA0-6EAD-46C7-B50A-36CF7FE30A02}.Fake Github Source|Any CPU.ActiveCfg = Release|Any CPU
+		{4D67AAA0-6EAD-46C7-B50A-36CF7FE30A02}.Fake Github Source|Any CPU.Build.0 = Release|Any CPU
+		{4D67AAA0-6EAD-46C7-B50A-36CF7FE30A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D67AAA0-6EAD-46C7-B50A-36CF7FE30A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5F6A4F-86A2-40FE-8054-25F9B9C4AB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5F6A4F-86A2-40FE-8054-25F9B9C4AB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5F6A4F-86A2-40FE-8054-25F9B9C4AB55}.Fake Github Source|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5F6A4F-86A2-40FE-8054-25F9B9C4AB55}.Fake Github Source|Any CPU.Build.0 = Release|Any CPU
+		{DD5F6A4F-86A2-40FE-8054-25F9B9C4AB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5F6A4F-86A2-40FE-8054-25F9B9C4AB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBDD2D6-2BFA-4568-8DBF-8AD846111D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBDD2D6-2BFA-4568-8DBF-8AD846111D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBDD2D6-2BFA-4568-8DBF-8AD846111D78}.Fake Github Source|Any CPU.ActiveCfg = Fake Github Source|Any CPU
+		{DDBDD2D6-2BFA-4568-8DBF-8AD846111D78}.Fake Github Source|Any CPU.Build.0 = Fake Github Source|Any CPU
+		{DDBDD2D6-2BFA-4568-8DBF-8AD846111D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBDD2D6-2BFA-4568-8DBF-8AD846111D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BEDA089-FE7B-49F9-B8DA-32A89EF626E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEDA089-FE7B-49F9-B8DA-32A89EF626E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEDA089-FE7B-49F9-B8DA-32A89EF626E3}.Fake Github Source|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEDA089-FE7B-49F9-B8DA-32A89EF626E3}.Fake Github Source|Any CPU.Build.0 = Release|Any CPU
+		{7BEDA089-FE7B-49F9-B8DA-32A89EF626E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEDA089-FE7B-49F9-B8DA-32A89EF626E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236D191E-D15C-4E09-BF40-B99D4E39FA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236D191E-D15C-4E09-BF40-B99D4E39FA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236D191E-D15C-4E09-BF40-B99D4E39FA75}.Fake Github Source|Any CPU.ActiveCfg = Release|Any CPU
+		{236D191E-D15C-4E09-BF40-B99D4E39FA75}.Fake Github Source|Any CPU.Build.0 = Release|Any CPU
+		{236D191E-D15C-4E09-BF40-B99D4E39FA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236D191E-D15C-4E09-BF40-B99D4E39FA75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs2010:8080/tfs/scrum_2014
+		SccProjectUniqueName0 = Entity.DBBusinessEntity\\Entity.DBBusinessEntity.csproj
+		SccProjectName0 = Entity.DBBusinessEntity
+		SccAuxPath0 = http://tfs2010:8080/tfs/scrum_2014
+		SccLocalPath0 = Entity.DBBusinessEntity
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
